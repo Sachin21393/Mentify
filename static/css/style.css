@@ -1,25 +1,46 @@
-<!-- <%- include('partial/header'); -%> -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* General CSS Setup */
-body{
-  background-color: lightblue;
-  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
-}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  
+  .footer-padding {
+      padding-bottom: 60px;
+  }
+  
+  .footer {
+      position: absolute;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #1abc9c;
+  }
+  
+  .footer p {
+      margin-top: 25px;
+      font-size: 12px;
+    color: #fff;
+  }
+  
 
-/* container */
-.container {
-  padding: 5% 5%;
-}
-
-/* CSS talk bubble */
-.talk-bubble {
+  .talk-bubble {
 	margin: 40px;
   display: inline-block;
   position: relative;
@@ -36,8 +57,6 @@ body{
 	-moz-border-radius: 30px;
 
 }
-
-/* Right triangle placed top left flush. */
 .tri-right.border.left-top:before {
 	content: ' ';
 	position: absolute;
@@ -266,24 +285,3 @@ body{
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
-    </style>
-</head>
-<body>
-    <h2>Post your problem here Freely</h2>
-    <% for(var i=0;i<ss.length;i++) { %>
-        <div class="talk-bubble tri-right border round btm-left-in">
-            <div class="talktext">
-        <h1><%=ss[i].title%></h1>
-       
-        <p>
-            <%=ss[i].content%>
-        </div>
-    </div>
-        <!-- <% console.log(ss[i].title) %> -->
-    <% } %>
-</body>
-</html>
-  
-    <%- include('partial/footer'); -%>
-
-  
