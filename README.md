@@ -1,4 +1,4 @@
-# Mentify
+# Mentify.
 Hello everyone, so we are here to talk about the topic which is ignored by 80% of the people worldwide and that topic is mental health. So why is it that we choose to ignore this considering that we see that a lot of people around us are very stressed, frustrated, etc.? So many people don't know that this is starting cause of mental illness. According to statistics which we have studied the burden of mental health problems among the Indian youth is high and about 7% of Indians suffer from depression but this figure looks too small, right? Yes, this figure looks very small right now but if we calculate it then roughly 70,899,650 people in India suffer, and now you will be shocked that behind that small percentage is a very big number.
  So, what is leading such a large number of individuals to suffer?
 The reason behind it is that people don’t know what mental stress is and they just ignore it by saying “Apney App theek Ho Jayega”. This is the cause of such alarming numbers. So we have given you a short Explanation that why we choose this topic So here we are with a solution.
